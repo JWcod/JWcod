@@ -5,22 +5,22 @@
 **AI agents, data products, and the hardware underneath them.**
 EE at Purdue. I design the workflow, let agents do the typing, and ship.
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0b1020?style=flat-square&logo=linkedin&logoColor=5eead4)](https://www.linkedin.com/in/YOUR-HANDLE)
-[![Email](https://img.shields.io/badge/Email-0b1020?style=flat-square&logo=gmail&logoColor=5eead4)](mailto:YOUR-PUBLIC-EMAIL)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0b1020?style=flat-square&logo=linkedin&logoColor=5eead4)](https://www.linkedin.com/in/jensenwang1122)
+[![Email](https://img.shields.io/badge/Email-0b1020?style=flat-square&logo=gmail&logoColor=5eead4)](mailto:jensenwang1122@gmail.com)
 
 </div>
 
 ---
 
-## What I'm building
+## What I work on
 
-| | Project | What it does | Stack |
-|---|---|---|---|
-| 📈 | **invest-lab** | Type a company name. Agents pull filings, valuation, technicals and news, then score it with a multi-factor model and a validation layer that tests whether the model actually works. | Python, FastAPI |
-| 🩺 | **health-agent** | Personal health data pipeline with an agent layer on top. *(early stage)* | Python |
-| ✈️ | **flight-app** | Flight tracker and trip dashboard, imported from Flighty exports. | JS, Node |
+| | Focus | What it means |
+|---|---|---|
+| 🤖 | **AI agents** | Multi-step agent workflows that research, build, and verify their own output. |
+| 📊 | **Data products** | Turning messy data into tools people can actually use and trust. |
+| 🔬 | **Hardware** | EE background: embedded systems, FPGA, and memory reliability. |
 
-Most repos are private while they are being built. I open them up once they are worth reading.
+Most of my repos are private while they are being built. I open them up once they are worth reading.
 
 ## How I build
 
@@ -61,4 +61,4 @@ flowchart LR
 
 ---
 
-<div align="center"><sub>Taiwan → West Lafayette. Currently looking for internships in AI, consulting, and hardware.</sub></div>
+<div align="center"><sub>Originally from Taiwan, now in West Lafayette. Currently looking for internships in AI, consulting, and hardware.</sub></div>
