@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="150" viewBox="0 0 1200 150" role="img" aria-label="Selected results">
+<defs><linearGradient id="acc" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#5eead4"/><stop offset="0.55" stop-color="#60a5fa"/><stop offset="1" stop-color="#a78bfa"/></linearGradient>
+<style>
+.mono{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}
+.sans{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif}
+.dot{animation:rise 3.6s linear infinite}
+.flow{stroke-dasharray:5 7;animation:flow 1.8s linear infinite}
+.cur{animation:blink 1.1s steps(1) infinite}
+.plate{animation:float 6s ease-in-out infinite}
+@keyframes rise{0%{transform:translateY(0);opacity:0}10%{opacity:1}90%{opacity:1}100%{transform:translateY(-250px);opacity:0}}
+@keyframes flow{to{stroke-dashoffset:-24}}
+@keyframes blink{50%{opacity:0}}
+@keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-3px)}}
+</style></defs>
+<rect x="0" y="0" width="282" height="150" rx="14" fill="#0b1226" stroke="#26345f"/>
+<rect x="0" y="0" width="282" height="3" rx="1.5" fill="url(#acc)"/>
+<text x="22" y="58" class="sans" font-size="40" font-weight="800" fill="#f4f7fb">> 85%</text>
+<text x="22" y="82" class="mono" font-size="12" fill="#5eead4" letter-spacing="1.5">MAP</text>
+<text x="22" y="104" class="sans" font-size="13" fill="#9fb0d6">YOLOv11n surface-defect</text><text x="22" y="122" class="sans" font-size="13" fill="#9fb0d6">detection for industrial</text><text x="22" y="140" class="sans" font-size="13" fill="#9fb0d6">inspection</text>
+<rect x="306" y="0" width="282" height="150" rx="14" fill="#0b1226" stroke="#26345f"/>
+<rect x="306" y="0" width="282" height="3" rx="1.5" fill="url(#acc)"/>
+<text x="328" y="58" class="sans" font-size="40" font-weight="800" fill="#f4f7fb">0</text>
+<text x="328" y="82" class="mono" font-size="12" fill="#5eead4" letter-spacing="1.5">GRAPHICS LIBRARIES</text>
+<text x="328" y="104" class="sans" font-size="13" fill="#9fb0d6">ILI9341 TFT driver written</text><text x="328" y="122" class="sans" font-size="13" fill="#9fb0d6">from scratch: SPI, 5x8 font</text><text x="328" y="140" class="sans" font-size="13" fill="#9fb0d6">renderer</text>
+<rect x="612" y="0" width="282" height="150" rx="14" fill="#0b1226" stroke="#26345f"/>
+<rect x="612" y="0" width="282" height="3" rx="1.5" fill="url(#acc)"/>
+<text x="634" y="58" class="sans" font-size="40" font-weight="800" fill="#f4f7fb">20+</text>
+<text x="634" y="82" class="mono" font-size="12" fill="#5eead4" letter-spacing="1.5">CUSTOMERS ASSESSED</text>
+<text x="634" y="104" class="sans" font-size="13" fill="#9fb0d6">AI optical inspection market</text><text x="634" y="122" class="sans" font-size="13" fill="#9fb0d6">work, sized a NT$85M niche</text>
+<rect x="918" y="0" width="282" height="150" rx="14" fill="#0b1226" stroke="#26345f"/>
+<rect x="918" y="0" width="282" height="3" rx="1.5" fill="url(#acc)"/>
+<text x="940" y="58" class="sans" font-size="30" font-weight="800" fill="#f4f7fb">DIGITIMES</text>
+<text x="940" y="82" class="mono" font-size="12" fill="#5eead4" letter-spacing="1.5">JUL 2024</text>
+<text x="940" y="104" class="sans" font-size="13" fill="#9fb0d6">GaN / SiC supply-chain</text><text x="940" y="122" class="sans" font-size="13" fill="#9fb0d6">research, presented to a VP,</text><text x="940" y="140" class="sans" font-size="13" fill="#9fb0d6">then published</text>
+</svg>

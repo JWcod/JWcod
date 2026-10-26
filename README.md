@@ -1,60 +1,64 @@
 <div align="center">
 
-<img src="assets/banner.svg" alt="Jensen Wang. Building AI agents that ship." width="100%"/>
+<img src="assets/banner.svg" alt="Jensen Wang. From silicon to agents." width="100%"/>
 
-**AI agents, data products, and the hardware underneath them.**
-EE at Purdue. I design the workflow, let agents do the typing, and ship.
+<br/>
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0b1020?style=flat-square&logo=linkedin&logoColor=5eead4)](https://www.linkedin.com/in/jensenwang1122)
-[![Email](https://img.shields.io/badge/Email-0b1020?style=flat-square&logo=gmail&logoColor=5eead4)](mailto:jensenwang1122@gmail.com)
+**Electrical engineering student at Purdue who ships across the whole stack:**
+**FPGA and firmware at the bottom, AI agent workflows at the top.**
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-jensenwang1122-0b1226?style=for-the-badge&logo=linkedin&logoColor=5eead4)](https://www.linkedin.com/in/jensenwang1122)
+[![Email](https://img.shields.io/badge/Email-jensenwang1122@gmail.com-0b1226?style=for-the-badge&logo=gmail&logoColor=5eead4)](mailto:jensenwang1122@gmail.com)
 
 </div>
 
----
+<br/>
 
-## What I work on
+## Why the whole stack matters
 
-| | Focus | What it means |
-|---|---|---|
-| 🤖 | **AI agents** | Multi-step agent workflows that research, build, and verify their own output. |
-| 📊 | **Data products** | Turning messy data into tools people can actually use and trust. |
-| 🔬 | **Hardware** | EE background: embedded systems, FPGA, and memory reliability. |
+Most hardware teams treat software as an afterthought, and most software teams treat hardware as a black box. I work on both sides of that line, so I can find the bug that lives on the seam.
 
-Most of my repos are private while they are being built. I open them up once they are worth reading.
+| Layer | What I do there |
+|---|---|
+| **Silicon** | MTJ thermal reliability analysis, FPGA-based stress-test development, and RTL verification for MRAM controllers at Purdue's SoCET lab. |
+| **Firmware** | Bare-metal C on ARM Cortex-M. SPI, I2C, ADC, PWM, timer interrupts. I wrote a TFT display driver from scratch, including the font renderer. |
+| **Software** | Python and SQL for data products and inspection pipelines. Computer vision for industrial defect detection. |
+| **Agents** | Multi-step AI workflows with a spec, a verification step, and a decision log, so the output can be trusted and reproduced. |
 
-## How I build
+<br/>
 
-```mermaid
-flowchart LR
-    A[Problem] --> B[Spec and tests first]
-    B --> C[Agents implement]
-    C --> D[Verify against data]
-    D -->|fails| B
-    D -->|passes| E[Ship and log decisions]
-```
+## Track record
 
-- **Spec first.** Every project has a written model, a decision log, and a verification checklist before the code grows.
-- **Agents as teammates.** Claude Code does the implementation. I own the architecture, the validation, and the call on what ships.
-- **Evidence over vibes.** A result only counts if I can reproduce it from the data.
+<img src="assets/proof.svg" alt="Selected results" width="100%"/>
+
+<br/>
+
+- **Semiconductor research.** Part of the Purdue MRAM team studying memory reliability under high temperature stress.
+- **Startup camp.** Co-founded a medical data platform at European Innovation Academy in Porto. Led UI/UX, shipped 15+ wireframes and mockups, and pitched to VCs and angels.
+- **Industry work.** Consulting project for a Taiwanese electronics manufacturer on GaN and SiC power semiconductors. Mapped Taiwan's GaN supply chain against global IDMs. Published in DIGITIMES.
+
+<br/>
+
+## Looking for
+
+- **Startups at the hardware and software boundary:** embedded, FPGA, edge AI, AI infrastructure, robotics, devices.
+- **Roles where one person owns a problem end to end,** from the sensor to the dashboard to the agent that watches it.
+- Early-stage teams that move fast and want someone who learns the missing layer instead of waiting for it.
+
+If you are building something in that space, [send me a note](mailto:jensenwang1122@gmail.com).
+
+<br/>
 
 ## Toolbox
 
-![Python](https://img.shields.io/badge/Python-0b1020?style=flat-square&logo=python&logoColor=5eead4)
-![TypeScript](https://img.shields.io/badge/TypeScript-0b1020?style=flat-square&logo=typescript&logoColor=60a5fa)
-![FastAPI](https://img.shields.io/badge/FastAPI-0b1020?style=flat-square&logo=fastapi&logoColor=5eead4)
-![Claude Code](https://img.shields.io/badge/Claude_Code-0b1020?style=flat-square&logo=anthropic&logoColor=60a5fa)
-![C](https://img.shields.io/badge/C%2FC%2B%2B-0b1020?style=flat-square&logo=c&logoColor=5eead4)
-![Verilog](https://img.shields.io/badge/Verilog%2FFPGA-0b1020?style=flat-square&logoColor=60a5fa)
-![Git](https://img.shields.io/badge/Git-0b1020?style=flat-square&logo=git&logoColor=5eead4)
+```text
+Languages   C, C++, Python, SystemVerilog, Verilog, SQL, RISC-V assembly, MATLAB
+Hardware    ARM Cortex-M (RP2350), Terasic FPGA (Cyclone IV/V), Intel Quartus
+Interfaces  SPI, I2C, UART, ADC, PWM, AHB/APB, JTAG
+Software    Git, FastAPI, YOLO, Figma, Ansys thermal simulation
+Agents      Claude Code, spec-driven workflows, verification-first pipelines
+```
 
-## Activity
+<br/>
 
-<div align="center">
-
-![Streak](https://streak-stats.demolab.com?user=JWcod&theme=dark&background=0b1020&ring=5eead4&fire=60a5fa&currStreakLabel=5eead4&hide_border=true)
-
-</div>
-
----
-
-<div align="center"><sub>Originally from Taiwan, now in West Lafayette. Currently looking for internships in AI, consulting, and hardware.</sub></div>
+<div align="center"><sub>Originally from Taiwan. Now at Purdue, West Lafayette, Indiana.</sub></div>
