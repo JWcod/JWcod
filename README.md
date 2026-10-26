@@ -49,10 +49,6 @@ flowchart LR
 
 ## Activity
 
-<!-- Uncomment after the metrics workflow has run once (see .github/workflows/metrics.yml)
-<img src="assets/metrics.svg" alt="GitHub metrics" width="100%"/>
--->
-
 <div align="center">
 
 ![Streak](https://streak-stats.demolab.com?user=JWcod&theme=dark&background=0b1020&ring=5eead4&fire=60a5fa&currStreakLabel=5eead4&hide_border=true)
